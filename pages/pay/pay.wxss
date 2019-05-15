@@ -1,0 +1,19 @@
+.mePag>view {
+  padding: 32rpx 40rpx;
+  background: white;
+  font-size: 32rpx;    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight:bold;
+  color:#444444;
+}
+.meMap {
+  border-bottom: 1rpx #EEEEEE solid;
+}
+
+button{
+  background:#2BA245;
+  color:#FFFFFF;
+  margin:3px;
+}

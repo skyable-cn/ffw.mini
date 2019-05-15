@@ -1,0 +1,6 @@
+<view class="mePag">
+    <view class="meMap" bindtap='phoneOperator'>
+      <text>电话:{{phone}}</text>
+      <text>></text>
+    </view>
+  </view>

@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='imagesize'>
+  <image src="https://fanfan.skyable.cn/app/static/mini/logo.jpg">
+  </image>
+</view>
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">微信用户一键登录</button>
+    <block wx:else>
+      <view class="usermotto">
+        <text class="user-motto">{{motto}}</text>
+      </view>
+    </block>
+  </view>
+</view>

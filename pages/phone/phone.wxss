@@ -1,0 +1,15 @@
+.mePag>view {
+  padding: 32rpx 40rpx;
+  background: white;
+  font-size: 32rpx;    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+.meMap {
+  border-top: 2rpx #EEEEEE solid;
+  border-bottom: 2rpx #EEEEEE solid;
+}
+.meMore {
+  font-size: 44rpx;
+}

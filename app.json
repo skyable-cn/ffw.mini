@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/webview/webview",
+    "pages/share/share",
+    "pages/pay/pay",
+    "pages/address/address"
+  ],
+  "window": {
+    "navigationBarTitleText": "饭饭吃西安",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#000000"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

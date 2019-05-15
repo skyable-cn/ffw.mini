@@ -1,0 +1,7 @@
+<!--customer.wxml-->
+  <block wx:for="{{customer}}" wx:key="item">
+  <view class='imagesize'>
+  <button open-type="contact" bindtap="sendMessage" data-index="{{item.GROUPS_ID}}"><image src="https://fanfan.skyable.cn/app/static/mini/customer.jpg"></image></button>
+  <view class="child">{{item.GROUPSDESC}}</view>
+  </view>
+  </block>

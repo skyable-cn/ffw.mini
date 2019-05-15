@@ -1,0 +1,6 @@
+<view class="mePag">
+    <view class="meMap" bindtap='positionOperator'>
+      <text>位置:{{address}}</text>
+      <text>></text>
+    </view>
+</view>

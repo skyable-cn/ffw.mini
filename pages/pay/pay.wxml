@@ -1,0 +1,34 @@
+  <view class="mePag">
+  <view class="meMap">
+      <text wx:if="{{typegoods}}">分类: 消费产品</text>
+      <block wx:elif="{{typeproduct}}">
+      <text>分类: 充值产品</text>
+      </block>
+      <block wx:else>
+      <text>分类: 其它产品</text>
+      </block>
+    </view>
+  </view>
+  <view class="mePag">
+  <view class="meMap">
+      <text>订单SN: {{sn}}</text>
+    </view>
+  </view>
+  <view class="mePag">
+    <view class="meMap">
+      <text>应付: {{original}} 元</text>
+    </view>
+  </view>
+  <view class="mePag">
+    <view class="meMap">
+      <text>抵扣: {{derate}} 元</text>
+    </view>
+  </view>
+  <view class="mePag">
+    <view class="meMap">
+      <text>实付: {{money}} 元</text>
+    </view>
+  </view>
+  <view>
+    <button>{{state}}</button>
+  </view>

@@ -1,0 +1,30 @@
+/**index.wxss**/
+.userinfo {
+  display:flex;
+  justify-content: center;        
+  align-items:center;
+}
+.usermotto{
+  color:#888888;
+  bottom: 100px;
+  position: fixed;
+  width:70%;
+  text-align: center;
+}
+.imagesize{
+ display:flex;
+ justify-content: center;        
+ align-items:center;
+ 
+}
+.imagesize image { 
+  width:300rpx;
+  height:300rpx;
+}
+button{
+  background:#2BA245;
+  color:#FFFFFF;
+  bottom: 100px;
+  position: fixed;
+  width:70%;
+}

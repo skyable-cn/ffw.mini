@@ -1,0 +1,3 @@
+<view>
+<image mode="aspectFit" src="https://fanfan.skyable.cn/app/file/image?FILENAME=g1.png" bindtap="previewImage"></image>
+</view>

@@ -1,0 +1,5 @@
+<view class='imagesize'>
+  <image src="https://fanfan.skyable.cn/app/file/image?FILENAME={{image}}" mode="widthFix" >
+  </image>
+</view>
+<view class="buttonsize"><button open-type="share" style="background:#FFCC01;width:100%;">立即分享</button></view>
